@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali&display=swap');
+*{
+    font-family: 'Mali', cursive;
+    color: aliceblue;
+}
+body{
+  background-image: url(../img/backgrounds.jpg);
+  background-attachment:fixed;
+  background-size: cover;
+  text-align: center;
+  margin: 0;
+  padding:0;
+}
+img{
+  vertical-align: middle;
+  max-height: 275px;
+  width: 170px;
+  margin: 1px;
+}
+
+#icon{
+  height: 30px;
+  width: 30px;
+}
+
+.sidebar{
+  list-style-type: none;
+  margin-right: 6px;
+  padding: 0;
+  overflow:hidden;
+  z-index: 1;
+  background-color: #4E73DF;
+  position: fixed;
+  left: 0;
+  height: 100%;
+}
+.sidebar :hover{
+  color: rgba(240, 248, 255, 0.555);
+}
+.userbox{
+    background-color: #b6c2ec46;
+    display: inline-block;
+    margin: 20px;
+    padding-top:20px ;
+    padding: 12px;
+    width: 250px;
+    height: 420px;
+    text-align: center;
+    border: 5px double aliceblue;
+    border-radius: 2px 30px;
+    vertical-align: middle;
+    align-items: center;
+}
+.userbox img{
+  margin: 2px;
+  align-items: center;
+  
+}
+.userbox h5{
+  font-size: 13px;
+  text-align: center;
+  vertical-align: middle;
+  display: inline;
+  margin: 0;
+  padding:0;
+}
+.content{
+    color: aliceblue;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 17%;
+}
+.content a{
+  color: aliceblue;
+  background-color: #4E73DF;
+  padding: 9px 25px;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+}
+.content a:hover{
+  color: #b6c2ecc7;
+}
+
+.title{
+  text-align: center;
+  margin: 10%;
+  vertical-align: middle;
+}
+.title h1,h3{
+  font-size: 2.5rem;
+}
+.ig{
+  display: block;
+  margin-left: 100px;
+  margin: 10px;
+  width: 800px;
+  height: 500px;
+}
