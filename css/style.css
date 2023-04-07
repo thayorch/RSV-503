@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background: linear-gradient(#040228 0%,#0075c7 40%);
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+header {
+    position:static;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo {
+    color: #FFF;
+    font-size: 2em;
+    cursor: default;
+}
+.navbar a {
+    color: #FFF;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 600;
+    padding: 6px 15px;
+    border-radius: 20px;
+}
+.navbar a:hover,
+.navbar a.active{
+    background:#11b0c5;
+}
+
+.parallax {
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.parallax img {
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+
+.sec {
+    position: absolute;
+    padding: 100px;
+    background: #040228;
+}
+.sec h2{
+    font-size: 3em;
+    color: #FFF;
+    margin-bottom: 10px;
+}
+.sec h2:nth-child(2){
+    font-size: 2em;
+}
+.sec p{
+    font-size: 1em;
+    color: #FFF;
+    font-weight: 300;
+}
+
+#icon{
+  height: 25px;
+  width: 25px;
+}
+
+.userbox{
+    background-color: #b6c2ec46;
+    display: inline-block;
+    margin: 20px;
+    padding-top:20px ;
+    padding: 12px;
+    width: 250px;
+    height: 450px;
+    text-align: center;
+    border: 5px double aliceblue;
+    border-radius: 2px 30px;
+    align-items: center;
+}
+.userbox img{
+  max-width: 200px;
+  margin: 2px;
+  align-items: center;
+}
+.userbox h5{
+  font-size: 13px;
+  text-align: center;
+  display: inline;
+}
+.content{
+    color: aliceblue;
+    align-items: center;
+    text-align: center;
+}
+.content a{
+  color: aliceblue;
+  background-color: #4E73DF;
+  padding: 9px 25px;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+}
+.content a:hover{
+  color: #b6c2ecc7;
+}
+
+.title{
+  text-align: center;
+  margin: 10%;
+  vertical-align: middle;
+}
+.title h1,h3{
+  font-size: 2.5rem;
+}
+.ig{
+  margin: 10px;
+  width: 700px;
+  height: 500px;
+}
